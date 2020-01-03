@@ -42,9 +42,8 @@ module.exports = {
 ```diff
 // vuepress/config.js
 module.exports = {
--  markdown: {
 -    config(md) { /* ... */ }
--  },
+
 +  extendMarkdown(md) { /* ... */ }
 }
 ```
